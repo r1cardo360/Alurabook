@@ -11,4 +11,4 @@ Ultilizando apenas HTML5 e CSS3 e uma API para o carrosel (SwiperJs)
 link da API = https://swiperjs.com
 página criada com flex-box
 
-Acesse a pagina por enquanto funcionando só mobile: 
+Acesse a pagina por enquanto funcionando só mobile: https://fancy-donut-b245a9.netlify.app/
