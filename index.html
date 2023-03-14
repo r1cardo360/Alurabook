@@ -42,7 +42,27 @@
             <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
         <ul class="opcoes">
-            <li class="opcoes__item"><a class="opcoes__link" href="#">Categorias</a></li>
+            <input class="opcoes__botao" type="checkbox" id="opcoes-menu">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Front-End</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Design & UX</a>
+                </li>
+            </ul>
             <li class="opcoes__item"><a class="opcoes__link" href="#">Favoritos</a></li>
             <li class="opcoes__item"><a class="opcoes__link" href="#">Minha estante</a></li>
         </ul>
@@ -121,24 +141,23 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-
-            <div class="card">
-                <div class="card__descricao">
-                    <div class="descricao">
-                        <img src="Img/Estrelinhas.svg" alt="Imagem de estrelas">
-                        <h3 class="descricao__titulo">Autora do Mês</h3>
-                        <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                        <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-                    </div>
-                    <img src="Img/Perfil-escritora 1.svg" alt="Imagem do angular">
+        </div>
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img src="Img/Estrelinhas.svg" alt="Imagem de estrelas">
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
                 </div>
-                <div class="card__botoes">
-                    <ul class="botoes">
-                        <li class="botoes__item"><img src="Img/Favoritos.svg" alt="Imagem dos favoritos"></li>
-                        <li class="botoes__item"><img src="Img/Compras.svg" alt="Add Carrinho de compras"></li>
-                    </ul>
-                    <a class="botoes__ancora" href="#">Saiba Mais</a>
-                </div>
+                <img src="Img/Perfil-escritora 1.svg" alt="Imagem do angular">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="Img/Favoritos.svg" alt="Imagem dos favoritos"></li>
+                    <li class="botoes__item"><img src="Img/Compras.svg" alt="Add Carrinho de compras"></li>
+                </ul>
+                <a class="botoes__ancora" href="#">Saiba Mais</a>
             </div>
         </div>
     </section>
@@ -156,9 +175,11 @@
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-        <input class="contato__email" type="email" id="email" placeholder="Cadastre seu e-mail">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+            <input class="contato__email" type="email" id="email" placeholder="Cadastre seu e-mail">
     </section>
     <hr/>
     <footer class="rodape">
